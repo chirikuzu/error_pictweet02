@@ -1,5 +1,3 @@
-require 'rails_helper'
-
 describe TweetsController, type: :request do
 
   before do

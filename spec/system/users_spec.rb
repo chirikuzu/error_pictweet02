@@ -69,7 +69,7 @@ RSpec.describe 'ログイン', type: :system do
       visit new_user_session_path
       # 正しいユーザー情報を入力する
       fill_in 'Email', with: @user.email
-      fill_in 'Password', with: @user.password
+      fill_in 'Password', with: @user.pssword
       # ログインボタンを押す
       find('input[name="commit"]').click
       # トップページへ遷移する
